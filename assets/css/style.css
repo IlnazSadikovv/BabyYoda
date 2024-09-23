@@ -1,0 +1,1659 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  max-width: 1920px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  white-space: nowrap;
+}
+.header__logo {
+  color: #fff;
+  position: absolute;
+  font-family: Krona One;
+  font-size: 40px;
+  left: 61px;
+  top: 34px;
+}
+.header__about {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 608px;
+  top: 29px;
+  font-size: 48px;
+}
+.header__advantage {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 1033px;
+  top: 29px;
+  font-size: 48px;
+}
+.header__reviews {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  position: absolute;
+  left: 1780px;
+  top: 29px;
+  font-size: 48px;
+}
+.header__rectangle {
+  position: absolute;
+  top: 110px;
+  width: 1920px;
+  left: 170px;
+}
+
+@media (max-width: 431px) {
+  .header__logo {
+    width: 130px;
+    height: 15px;
+    font-size: 12px;
+    top: 16px;
+    left: 16px;
+  }
+  .header__about {
+    width: 39px;
+    height: 15px;
+    font-size: 15px;
+    top: 13px;
+    left: 164px;
+  }
+  .header__advantage {
+    width: 105px;
+    height: 15px;
+    font-size: 15px;
+    top: 13px;
+    left: 227px;
+  }
+  .header__reviews {
+    width: 56px;
+    height: 15px;
+    font-size: 15px;
+    top: 13px;
+    left: 356px;
+  }
+  .header__rectangle {
+    top: 46px;
+    width: 252px;
+    left: 89px;
+  }
+}
+.adv {
+  color: #fff;
+  background-color: #000;
+}
+.adv__zakaz {
+  position: absolute;
+  font-family: Jura;
+  width: 1048px;
+  font-size: 128px;
+  color: #fff;
+  left: 104px;
+  top: 173px;
+}
+.adv__text {
+  width: 1294px;
+  height: 611px;
+  color: #fff;
+  position: absolute;
+  font-family: Jura;
+  font-size: 40px;
+  top: 525px;
+  left: 104px;
+}
+
+@media (max-width: 431px) {
+  .adv__zakaz {
+    width: 270px;
+    font-size: 32px;
+    left: 20px;
+    top: 62px;
+  }
+  .adv__text {
+    width: 270px;
+    font-size: 14px;
+    left: 20px;
+    top: 150px;
+  }
+}
+.menu__menu {
+  color: #fff;
+  position: absolute;
+  font-family: Jura;
+  font-size: 128px;
+  width: 339px;
+  height: 115px;
+  top: 1180px;
+  left: 1000px;
+}
+.menu .card {
+  position: relative;
+  width: 590px;
+}
+.menu__card {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 1450px;
+  left: 104px;
+}
+.menu__salad {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 435.6;
+  top: 1477px;
+  left: 147px;
+}
+.menu__saladtext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 1980px;
+  left: 147px;
+}
+.menu__saladprice {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 2010px;
+  left: 459px;
+}
+.menu__izbr {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 2086px;
+  left: 150px;
+}
+.menu__zakazat {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 2086px;
+  left: 319px;
+}
+.menu__cardcake {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 1450px;
+  left: 900px;
+}
+.menu__cake {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 435.6;
+  top: 976px;
+  left: 943px;
+}
+.menu__subtitlecake {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 1980px;
+  left: 943px;
+}
+.menu__pricecake {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 2008px;
+  left: 1261px;
+}
+.menu__izbr1 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 2086px;
+  left: 943px;
+}
+.menu__zakazcake {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 2086px;
+  left: 1120px;
+}
+.menu__cardpiro {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 450px;
+  left: 1650px;
+}
+.menu__piro {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 500px;
+  top: 480px;
+  left: 1693px;
+}
+.menu__pirotext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 1995px;
+  left: 1693px;
+}
+.menu__piroprice {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 2005px;
+  left: 2016px;
+}
+.menu__izbr2 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 2086px;
+  left: 1693px;
+}
+.menu__zakazatpiro {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 2086px;
+  left: 1874px;
+}
+.menu__cardsila {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 2400px;
+  left: 104px;
+}
+.menu__sila {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 450px;
+  top: 930px;
+  left: 147px;
+}
+.menu__silatext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 2900px;
+  left: 147px;
+}
+.menu__silaprice {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 2930px;
+  left: 459px;
+}
+.menu__izbr3 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3023px;
+  left: 150px;
+}
+.menu__zakazatsila {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3023px;
+  left: 319px;
+}
+.menu__cardpasta {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 2400px;
+  left: 900px;
+}
+.menu__pasta {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 450px;
+  top: 470px;
+  left: 943px;
+}
+.menu__pastatext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 2900px;
+  left: 943px;
+}
+.menu__pastaprice {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 2930px;
+  left: 1261px;
+}
+.menu__izbr4 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3023px;
+  left: 943px;
+}
+.menu__zakazatpasta {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3023px;
+  left: 1120px;
+}
+.menu__cardbeef {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 2405px;
+  left: 1650px;
+}
+.menu__beef {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 450px;
+  top: 20px;
+  left: 1693px;
+}
+.menu__beeftext {
+  background-color: #fff;
+  position: relative;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 23px;
+  left: 1693px;
+}
+.menu__beefprice {
+  background-color: #fff;
+  position: relative;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: -17px;
+  left: 2016px;
+}
+.menu__izbr5 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3023px;
+  left: 1693px;
+}
+.menu__zakazatbeef {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3023px;
+  left: 1874px;
+}
+.menu__cardfett {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 3350px;
+  left: 104px;
+}
+.menu__fett {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 460px;
+  top: 390px;
+  left: 147px;
+}
+.menu__fetttext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 3850px;
+  left: 147px;
+}
+.menu__fettprice {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 3890px;
+  left: 459px;
+}
+.menu__izbr6 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3977px;
+  left: 150px;
+}
+.menu__zakazatfett {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3977px;
+  left: 319px;
+}
+.menu__carddart {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 3350px;
+  left: 900px;
+}
+.menu__dart {
+  color: #fff;
+  position: relative;
+  width: 400px;
+  height: 450px;
+  top: -60px;
+  left: 943px;
+}
+.menu__darttext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 3850px;
+  left: 943px;
+}
+.menu__dartprice {
+  background-color: #fff;
+  position: absolute;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: 3890px;
+  left: 1261px;
+}
+.menu__izbr7 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3977px;
+  left: 943px;
+}
+.menu__zakazatdart {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3977px;
+  left: 1120px;
+}
+.menu__cardburger {
+  color: #fff;
+  position: absolute;
+  width: 486px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 40px;
+  top: 3350px;
+  left: 1650px;
+}
+.menu__burger {
+  color: #fff;
+  position: absolute;
+  width: 400px;
+  height: 462px;
+  top: 3382px;
+  left: 1693px;
+}
+.menu__burgertext {
+  background-color: #fff;
+  position: absolute;
+  width: 290px;
+  height: 78px;
+  font-family: Jura;
+  font-size: 36px;
+  top: 3850px;
+  left: 1693px;
+}
+.menu__burgerprice {
+  background-color: #fff;
+  position: relative;
+  font-family: Lato;
+  width: 88px;
+  height: 38px;
+  font-weight: 900;
+  font-size: 36px;
+  top: -20px;
+  left: 2016px;
+}
+.menu__izbr8 {
+  position: absolute;
+  font-family: Jura;
+  background-color: #D9D9D9;
+  border-radius: 100px;
+  color: #000;
+  font-size: 24px;
+  width: 166px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3978px;
+  left: 1693px;
+}
+.menu__zakazatburger {
+  position: absolute;
+  font-family: Jura;
+  background-color: #FF6F00;
+  border-radius: 100px;
+  color: #000;
+  font-size: 32px;
+  width: 230px;
+  height: 55px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 19px;
+  top: 3978px;
+  left: 1874px;
+}
+
+@media (max-width: 431px) {
+  .menu__menu {
+    font-size: 40px;
+    width: 109px;
+    height: 31px;
+    top: 400px;
+    left: 160px;
+  }
+  .menu__card {
+    height: 356px;
+    width: 309px;
+    top: 475px;
+    left: 61px;
+  }
+  .menu__salad {
+    width: 257px;
+    height: 250px;
+    top: 489px;
+    left: 87px;
+  }
+  .menu__saladtext {
+    width: 154px;
+    top: 743px;
+    height: 43px;
+    font-size: 20px;
+    left: 87px;
+  }
+  .menu__saladprice {
+    width: 59px;
+    height: 22px;
+    font-size: 20px;
+    left: 285px;
+    top: 750px;
+  }
+  .menu__izbr {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    top: 800px;
+    left: 79px;
+  }
+  .menu__zakazat {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+    top: 800px;
+  }
+  .menu__cardcake {
+    height: 356px;
+    width: 309px;
+    left: 61px;
+    top: 855px;
+  }
+  .menu__cake {
+    width: 257px;
+    height: 250px;
+    left: 87px;
+    top: 615px;
+  }
+  .menu__subtitlecake {
+    width: 166px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    top: 1125px;
+    left: 87px;
+  }
+  .menu__pricecake {
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    font-size: 20px;
+    top: 1132px;
+  }
+  .menu__izbr1 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 1182px;
+  }
+  .menu__zakazcake {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+    top: 1182px;
+  }
+  .menu__cardpiro {
+    height: 356px;
+    top: 728px;
+    width: 309px;
+    left: 61px;
+  }
+  .menu__piro {
+    width: 257px;
+    top: 743px;
+    height: 250px;
+    left: 87px;
+  }
+  .menu__pirotext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    top: 1505px;
+    left: 87px;
+  }
+  .menu__piroprice {
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    top: 1514px;
+    font-size: 20px;
+  }
+  .menu__izbr2 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 1564px;
+  }
+  .menu__zakazatpiro {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+    top: 1564px;
+  }
+  .menu__cardsila {
+    top: 1615px;
+    height: 356px;
+    width: 309px;
+    left: 61px;
+  }
+  .menu__sila {
+    top: 868px;
+    width: 257px;
+    height: 250px;
+    left: 87px;
+  }
+  .menu__silatext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    left: 87px;
+    top: 1888px;
+  }
+  .menu__silaprice {
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    top: 1895px;
+    font-size: 20px;
+  }
+  .menu__izbr3 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 1945px;
+  }
+  .menu__zakazatsila {
+    font-size: 14px;
+    width: 154px;
+    top: 1945px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+  }
+  .menu__cardpasta {
+    height: 356px;
+    width: 309px;
+    left: 61px;
+    top: 1990px;
+  }
+  .menu__pasta {
+    width: 257px;
+    height: 250px;
+    left: 87px;
+    top: 990px;
+  }
+  .menu__pastatext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    left: 87px;
+    top: 2260px;
+  }
+  .menu__pastaprice {
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    top: 2270px;
+    font-size: 20px;
+  }
+  .menu__izbr4 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 2320px;
+  }
+  .menu__zakazatpasta {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+    top: 2320px;
+  }
+  .menu__cardbeef {
+    top: 2365px;
+    height: 356px;
+    width: 309px;
+    left: 61px;
+  }
+  .menu__beef {
+    width: 257px;
+    height: 250px;
+    left: 87px;
+    top: 1110px;
+  }
+  .menu__beeftext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    top: 1111px;
+    left: 87px;
+  }
+  .menu__beefprice {
+    top: 1080px;
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    font-size: 20px;
+  }
+  .menu__izbr5 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 2693px;
+  }
+  .menu__zakazatbeef {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+    top: 2693px;
+  }
+  .menu__cardfett {
+    height: 356px;
+    width: 309px;
+    left: 61px;
+    top: 2740px;
+  }
+  .menu__fett {
+    width: 257px;
+    height: 250px;
+    left: 87px;
+    top: 1166px;
+  }
+  .menu__fetttext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    left: 87px;
+    top: 3010px;
+  }
+  .menu__fettprice {
+    width: 59px;
+    top: 3017px;
+    height: 22px;
+    left: 285px;
+    font-size: 20px;
+  }
+  .menu__izbr6 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 3067px;
+  }
+  .menu__zakazatfett {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+    top: 3067px;
+  }
+  .menu__carddart {
+    height: 356px;
+    width: 309px;
+    left: 61px;
+    top: 3112px;
+  }
+  .menu__dart {
+    width: 257px;
+    height: 250px;
+    left: 87px;
+    top: 1283px;
+  }
+  .menu__darttext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    left: 87px;
+    top: 3379px;
+  }
+  .menu__dartprice {
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    font-size: 20px;
+    top: 3386px;
+  }
+  .menu__izbr7 {
+    font-size: 14px;
+    top: 3436px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+  }
+  .menu__zakazatdart {
+    top: 3436px;
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+  }
+  .menu__cardburger {
+    height: 356px;
+    width: 309px;
+    top: 3488px;
+    left: 61px;
+  }
+  .menu__burger {
+    width: 257px;
+    height: 250px;
+    left: 87px;
+    top: 3502px;
+  }
+  .menu__burgertext {
+    width: 154px;
+    font-size: 20px;
+    height: 43px;
+    font-size: 20px;
+    left: 87px;
+    top: 3755px;
+  }
+  .menu__burgerprice {
+    width: 59px;
+    height: 22px;
+    left: 285px;
+    font-size: 20px;
+    top: 1668px;
+  }
+  .menu__izbr8 {
+    font-size: 14px;
+    width: 105px;
+    height: 20px;
+    padding: 7px 14px 7px 14px;
+    left: 79px;
+    top: 3815px;
+  }
+  .menu__zakazatburger {
+    font-size: 14px;
+    width: 154px;
+    height: 20px;
+    top: 3815px;
+    padding: 7px 45px 7px 45px;
+    left: 190px;
+  }
+}
+.aboutus__about {
+  position: relative;
+  color: #fff;
+  font-family: Jura;
+  font-size: 128px;
+  width: 334px;
+  top: 210px;
+  left: 970px;
+}
+.aboutus__text {
+  position: relative;
+  color: #fff;
+  font-family: Jura;
+  font-size: 48px;
+  width: 1457px;
+  height: 911px;
+  top: 316px;
+  left: 104px;
+}
+
+@media (max-width: 431px) {
+  .aboutus__about {
+    font-size: 48px;
+    width: 137px;
+    height: 52px;
+    left: 147px;
+    top: 1760px;
+  }
+  .aboutus__text {
+    font-size: 20px;
+    height: 480px;
+    width: 381px;
+    left: 25px;
+    top: 1790px;
+  }
+}
+.footer__rectangle {
+  position: relative;
+  top: 363px;
+  width: 1920px;
+  left: 170px;
+}
+.footer__vk {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 545px;
+  left: 104px;
+}
+.footer__tg {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 105px;
+  top: 5760px;
+}
+.footer__time {
+  position: relative;
+  color: #fff;
+  width: 250px;
+  height: 151px;
+  top: 440px;
+  left: 400px;
+  font-family: Jura;
+  font-size: 40px;
+}
+.footer__delivery {
+  position: relative;
+  color: #fff;
+  width: 390px;
+  height: 116px;
+  top: 275px;
+  left: 900px;
+  font-family: Jura;
+  font-size: 64px;
+}
+.footer input.footer__email {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  width: 377px;
+  height: 60px;
+  padding: 25px 10px 25px;
+  font-size: 32px;
+  top: 185px;
+  left: 1400px;
+  text-align: left;
+  background-color: #fff;
+}
+.footer input.footer__email ::-webkit-input-placeholderz {
+  color: #A9A9A9;
+}
+.footer__sub {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  background-color: #303030;
+  color: #fff;
+  width: 176px;
+  height: 60px;
+  padding: 17px 22px;
+  top: 140px;
+  font-size: 24px;
+  left: 1777px;
+}
+.footer__accept {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  color: #fff;
+  width: 344px;
+  height: 72px;
+  font-size: 20px;
+  left: 1405px;
+  top: 200px;
+}
+.footer__prava {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  top: 370px;
+  width: 358px;
+  height: 16px;
+  left: 1000px;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media (max-width: 431px) {
+  .footer__rectangle {
+    width: 252px;
+    left: 89px;
+    top: 1800px;
+  }
+  .footer__vk {
+    width: 40px;
+    height: 40px;
+    left: 26px;
+    top: 1840px;
+  }
+  .footer__time {
+    width: 100px;
+    left: 90px;
+    font-size: 16px;
+    top: 1780px;
+    height: 76px;
+  }
+  .footer__delivery {
+    width: 92px;
+    height: 12px;
+    font-size: 10px;
+    left: 220px;
+    top: 1708px;
+  }
+  .footer input.footer__email {
+    width: 112px;
+    height: 20px;
+    left: 220px;
+    font-size: 10px;
+    top: 1720px;
+    padding: 8px 21px 8px 3px;
+  }
+  .footer__sub {
+    width: 44px;
+    height: 9px;
+    padding: 5px;
+    font-size: 7px;
+    left: 332px;
+    border: none;
+    top: 1699px;
+  }
+  .footer__accept {
+    width: 103px;
+    height: 23px;
+    font-size: 6px;
+    left: 220px;
+    top: 1707px;
+  }
+  .footer__prava {
+    width: 134px;
+    height: 5px;
+    font-size: 6px;
+    left: 148px;
+    top: 1740px;
+  }
+}
+.review {
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.review__we {
+  position: absolute;
+  font-family: Jura;
+  font-size: 128px;
+  width: 890px;
+  height: 89px;
+  left: 700px;
+  top: 140px;
+}
+.review__Yura {
+  position: absolute;
+  font-size: 40px;
+  left: 104px;
+  top: 400px;
+}
+.review__Yuraa {
+  position: absolute;
+  font-size: 36px;
+  left: 104px;
+  top: 500px;
+  width: 534px;
+  height: 172px;
+}
+.review__alex {
+  position: absolute;
+  font-size: 40px;
+  left: 104px;
+  top: 900px;
+}
+.review__alexx {
+  position: absolute;
+  font-size: 36px;
+  width: 524px;
+  height: 116px;
+  top: 1000px;
+  left: 104px;
+}
+.review__alexey {
+  position: absolute;
+  font-size: 40px;
+  top: 400px;
+  left: 1350px;
+}
+.review__alexeyy {
+  position: absolute;
+  font-size: 36px;
+  left: 1350px;
+  top: 500px;
+  width: 534px;
+  height: 172px;
+}
+.review__elena {
+  position: absolute;
+  font-size: 40px;
+  left: 1350px;
+  top: 900px;
+}
+.review__elenaa {
+  position: absolute;
+  font-size: 36px;
+  left: 1350px;
+  top: 1000px;
+  width: 592px;
+  height: 215px;
+}
+
+@media (max-width: 431px) {
+  .review__we {
+    width: 300px;
+    height: 40px;
+    left: 89px;
+    font-size: 40px;
+    top: 70px;
+  }
+  .review__Yura {
+    width: 155px;
+    height: 22px;
+    font-size: 15px;
+    left: 32px;
+    top: 140px;
+  }
+  .review__Yuraa {
+    width: 175px;
+    height: 59px;
+    font-size: 12px;
+    left: 32px;
+    top: 170px;
+  }
+  .review__alex {
+    left: 231px;
+    width: 151px;
+    height: 21px;
+    font-size: 15px;
+    top: 140px;
+  }
+  .review__alexx {
+    left: 231px;
+    width: 167px;
+    font-size: 12px;
+    height: 45px;
+    top: 170px;
+  }
+  .review__alexey {
+    width: 153px;
+    height: 18px;
+    font-size: 15px;
+    left: 32px;
+    top: 250px;
+  }
+  .review__alexeyy {
+    width: 175px;
+    height: 41px;
+    font-size: 12px;
+    left: 32px;
+    top: 280px;
+  }
+  .review__elena {
+    width: 111px;
+    height: 20px;
+    font-size: 15px;
+    left: 231px;
+    top: 250px;
+  }
+  .review__elenaa {
+    width: 169px;
+    height: 88px;
+    font-size: 12px;
+    left: 231px;
+    top: 280px;
+  }
+}
+.footerr__rectangle {
+  position: relative;
+  top: 1300px;
+  width: 1920px;
+  left: 170px;
+}
+.footerr__vk {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1450px;
+  left: 104px;
+}
+.footerr__tg {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  left: 105px;
+  top: 1640px;
+}
+.footerr__time {
+  position: relative;
+  color: #fff;
+  width: 250px;
+  height: 151px;
+  top: 1346px;
+  left: 400px;
+  font-family: Jura;
+  font-size: 40px;
+}
+.footerr__delivery {
+  position: relative;
+  color: #fff;
+  width: 390px;
+  height: 116px;
+  top: 1185px;
+  left: 900px;
+  font-family: Jura;
+  font-size: 64px;
+}
+.footerr input.footerr__email {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  width: 377px;
+  height: 60px;
+  padding: 25px 10px 25px;
+  font-size: 32px;
+  top: 1100px;
+  left: 1400px;
+  text-align: left;
+  background-color: #fff;
+}
+.footerr input.footerr__email ::-webkit-input-placeholderz {
+  color: #A9A9A9;
+}
+.footerr__sub {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  background-color: #303030;
+  color: #fff;
+  width: 176px;
+  height: 60px;
+  padding: 17px 22px;
+  top: 1055px;
+  font-size: 24px;
+  left: 1777px;
+}
+.footerr__accept {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  color: #fff;
+  width: 344px;
+  height: 72px;
+  font-size: 20px;
+  left: 1405px;
+  top: 1115px;
+}
+.footerr__prava {
+  position: relative;
+  font-family: "Lato", sans-serif;
+  top: 1250px;
+  width: 358px;
+  height: 16px;
+  left: 1000px;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media (max-width: 431px) {
+  .footerr__rectangle {
+    width: 252px;
+    left: 89px;
+    top: 380px;
+  }
+  .footerr__vk {
+    width: 40px;
+    height: 40px;
+    left: 26px;
+    top: 410px;
+  }
+  .footerr__time {
+    width: 100px;
+    left: 90px;
+    font-size: 16px;
+    top: 350px;
+    height: 76px;
+  }
+  .footerr__delivery {
+    width: 92px;
+    height: 12px;
+    font-size: 10px;
+    left: 220px;
+    top: 279.5px;
+  }
+  .footerr input.footerr__email {
+    width: 112px;
+    height: 20px;
+    left: 220px;
+    font-size: 10px;
+    top: 290px;
+    padding: 8px 21px 8px 3px;
+  }
+  .footerr__sub {
+    width: 44px;
+    height: 9px;
+    padding: 5px;
+    font-size: 7px;
+    left: 332px;
+    border: none;
+    top: 269px;
+  }
+  .footerr__accept {
+    width: 103px;
+    height: 23px;
+    font-size: 6px;
+    left: 220px;
+    top: 280px;
+  }
+  .footerr__prava {
+    width: 134px;
+    height: 5px;
+    font-size: 6px;
+    left: 148px;
+    top: 300px;
+  }
+}

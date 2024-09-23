@@ -1,0 +1,1857 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    max-width: 1920px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: relative; 
+    display: flex;
+    white-space: nowrap;
+    &__logo{
+        color: #fff;
+        position: absolute;
+        font-family: Krona One;
+        font-size: 40px;
+        left: 61px;
+        top: 34px;
+    }
+
+    &__about{
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        position: absolute;
+        left: 608px;
+        top: 29px;
+        font-size: 48px;
+    }
+
+    &__advantage{
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        position: absolute;
+        left: 1033px;
+        top: 29px;
+        font-size: 48px;
+    }
+
+    &__reviews{
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        position: absolute;
+        left: 1780px;
+        top: 29px;
+        font-size: 48px;
+    }
+
+    &__rectangle{
+        position: absolute;
+        top: 110px;
+        width: 1920px;
+        left: 170px;
+    }
+}
+
+@media (max-width: 431px) {
+    .header{
+        &__logo{
+            width: 130px;
+            height: 15px;
+            font-size: 12px;
+            top: 16px;
+            left: 16px;
+        }
+        &__about{
+            width: 39px;
+            height: 15px;
+            font-size: 15px;
+            top: 13px;
+            left: 164px;   
+        }
+
+        &__advantage{
+            width: 105px;
+            height: 15px;
+            font-size: 15px;
+            top: 13px;
+            left: 227px;
+        }
+
+        &__reviews{
+            width: 56px;
+            height: 15px;
+            font-size: 15px;
+            top: 13px;
+            left: 356px;
+        }
+
+        &__rectangle{
+            top: 46px;
+            width: 252px;
+            left: 89px;
+        }
+    }
+
+
+}
+
+.adv{
+    color: #fff;
+    background-color: #000;
+    &__zakaz{
+        position: absolute;
+        font-family: Jura;
+        width: 1048px;
+        font-size: 128px;
+        color: #fff;
+        left: 104px;
+        top: 173px;
+    }
+
+    &__text{
+        width: 1294px;
+        height: 611px;
+        color: #fff;
+        position: absolute;
+        font-family: Jura;
+        font-size: 40px;
+        top: 525px;
+        left: 104px;
+    }
+}
+
+@media (max-width: 431px) {
+    .adv{
+        &__zakaz{
+            width: 270px;
+            font-size: 32px;
+            left: 20px;
+            top: 62px;
+        }
+
+        &__text{
+            width: 270px;
+            font-size: 14px;
+            left: 20px;
+            top: 150px;
+        }
+    }
+}
+
+
+
+.menu {
+    &__menu{
+        color: #fff;
+        position: absolute;
+        font-family: Jura;
+        font-size: 128px;
+        width: 339px;
+        height: 115px;
+        top: 1180px;
+        left: 1000px;
+    }
+
+    .card {
+        position: relative; 
+        width: 590px; 
+    }
+    &__card {
+        color: #fff;
+        position: absolute;
+        width: 486px;
+        height: 700px;
+        background-color: #fff;
+        border-radius: 40px;
+        top: 1450px;
+        left: 104px; 
+    }
+
+    &__salad{
+        color: #fff;
+        position: relative;
+        width: 400px;
+        height: 435.6;
+        top: 1477px;
+        left: 147px;
+    }
+
+    &__saladtext{
+        background-color: #fff;
+        position: absolute;
+        width: 290px;
+        height: 78px;
+        font-family: Jura;
+        font-size: 36px;
+        top: 1980px;
+        left: 147px;
+    }
+
+    &__saladprice{
+        background-color: #fff;
+        position: absolute;
+        font-family: Lato;
+        width: 88px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 36px;
+        top: 2010px;
+        left: 459px;
+    }
+
+    &__izbr{
+        position: absolute;
+        font-family: Jura;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+        color: #000;
+        font-size: 24px;
+        width: 166px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 2086px;
+        left: 150px;
+    }
+
+    &__zakazat{
+        position: absolute;
+        font-family: Jura;
+        background-color: #FF6F00;
+        border-radius: 100px;
+        color: #000;
+        font-size: 32px;
+        width: 230px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 2086px;
+        left: 319px;
+    }
+
+    &__cardcake{
+            color: #fff;
+            position: absolute;
+            width: 486px;
+            height: 700px;
+            background-color: #fff;
+            border-radius: 40px;
+            top: 1450px;
+            left: 900px; 
+    }
+
+    &__cake{
+        color: #fff;
+        position: relative;
+        width: 400px;
+        height: 435.6;
+        top: 976px;
+        left: 943px;
+    }
+
+    &__subtitlecake{
+        background-color: #fff;
+        position: absolute;
+        width: 290px;
+        height: 78px;
+        font-family: Jura;
+        font-size: 36px;
+        top: 1980px;
+        left: 943px;
+    }
+
+    &__pricecake{
+        background-color: #fff;
+        position: absolute;
+        font-family: Lato;
+        width: 88px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 36px;
+        top: 2008px;
+        left: 1261px;
+    }
+
+    &__izbr1{
+        position: absolute;
+        font-family: Jura;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+        color: #000;
+        font-size: 24px;
+        width: 166px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 2086px;
+        left: 943px;
+    }
+
+    &__zakazcake{
+        position: absolute;
+        font-family: Jura;
+        background-color: #FF6F00;
+        border-radius: 100px;
+        color: #000;
+        font-size: 32px;
+        width: 230px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 2086px;
+        left: 1120px;
+    }
+
+    &__cardpiro{
+        color: #fff;
+        position: absolute;
+        width: 486px;
+        height: 700px;
+        background-color: #fff;
+        border-radius: 40px;
+        top: 450px;
+        left: 1650px; 
+}
+
+&__piro{
+    color: #fff;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    top: 480px;
+    left: 1693px;
+}
+
+&__pirotext{
+    background-color: #fff;
+    position: absolute;
+    width: 290px;
+    height: 78px;
+    font-family: Jura;
+    font-size: 36px;
+    top: 1995px;
+    left: 1693px;
+}
+
+&__piroprice{
+    background-color: #fff;
+    position: absolute;
+    font-family: Lato;
+    width: 88px;
+    height: 38px;
+    font-weight: 900;
+    font-size: 36px;
+    top: 2005px;
+    left: 2016px;
+}
+
+&__izbr2{
+    position: absolute;
+    font-family: Jura;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    color: #000;
+    font-size: 24px;
+    width: 166px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 19px;
+    top: 2086px;
+    left: 1693px;
+}
+
+&__zakazatpiro{
+    position: absolute;
+    font-family: Jura;
+    background-color: #FF6F00;
+    border-radius: 100px;
+    color: #000;
+    font-size: 32px;
+    width: 230px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 19px;
+    top: 2086px;
+    left: 1874px;
+}
+
+&__cardsila{
+    color: #fff;
+    position: absolute;
+    width: 486px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 40px;
+    top: 2400px;
+    left: 104px; 
+    }
+
+    &__sila{
+        color: #fff;
+        position: relative;
+        width: 400px;
+        height: 450px;
+        top: 930px;
+        left: 147px;
+    }
+
+    &__silatext{
+        background-color: #fff;
+        position: absolute;
+        width: 290px;
+        height: 78px;
+        font-family: Jura;
+        font-size: 36px;
+        top: 2900px;
+        left: 147px;
+    }
+
+    &__silaprice{
+        background-color: #fff;
+        position: absolute;
+        font-family: Lato;
+        width: 88px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 36px;
+        top: 2930px;
+        left: 459px;
+    }
+
+    &__izbr3{
+        position: absolute;
+        font-family: Jura;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+        color: #000;
+        font-size: 24px;
+        width: 166px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3023px;
+        left: 150px;
+    }
+
+    &__zakazatsila{
+        position: absolute;
+        font-family: Jura;
+        background-color: #FF6F00;
+        border-radius: 100px;
+        color: #000;
+        font-size: 32px;
+        width: 230px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3023px;
+        left: 319px;
+    }
+
+    &__cardpasta{
+    color: #fff;
+            position: absolute;
+            width: 486px;
+            height: 700px;
+            background-color: #fff;
+            border-radius: 40px;
+            top: 2400px;
+            left: 900px; 
+    }
+
+    &__pasta{
+        color: #fff;
+        position: relative;
+        width: 400px;
+        height: 450px;
+        top: 470px;
+        left: 943px;
+    }
+
+    &__pastatext{
+        background-color: #fff;
+        position: absolute;
+        width: 290px;
+        height: 78px;
+        font-family: Jura;
+        font-size: 36px;
+        top: 2900px;
+        left: 943px;
+    }
+
+    &__pastaprice{
+        background-color: #fff;
+        position: absolute;
+        font-family: Lato;
+        width: 88px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 36px;
+        top: 2930px;
+        left: 1261px;
+    }
+
+    &__izbr4{
+        position: absolute;
+        font-family: Jura;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+        color: #000;
+        font-size: 24px;
+        width: 166px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3023px;
+        left: 943px;
+    }
+
+    &__zakazatpasta{
+        position: absolute;
+        font-family: Jura;
+        background-color: #FF6F00;
+        border-radius: 100px;
+        color: #000;
+        font-size: 32px;
+        width: 230px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3023px;
+        left: 1120px;
+    }
+
+    &__cardbeef{
+        color: #fff;
+        position: absolute;
+        width: 486px;
+        height: 700px;
+        background-color: #fff;
+        border-radius: 40px;
+        top: 2405px;
+        left: 1650px; 
+}
+
+&__beef{
+    color: #fff;
+    position: relative;
+    width: 400px;
+    height: 450px;
+    top: 20px;
+    left: 1693px;
+}
+
+&__beeftext{
+    background-color: #fff;
+    position: relative;
+    width: 290px;
+    height: 78px;
+    font-family: Jura;
+    font-size: 36px;
+    top: 23px;
+    left: 1693px;
+}
+
+&__beefprice{
+    background-color: #fff;
+    position: relative;
+    font-family: Lato;
+    width: 88px;
+    height: 38px;
+    font-weight: 900;
+    font-size: 36px;
+    top: -17px;
+    left: 2016px;
+}
+
+&__izbr5{
+    position: absolute;
+    font-family: Jura;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    color: #000;
+    font-size: 24px;
+    width: 166px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 19px;
+    top: 3023px;
+    left: 1693px;
+}
+
+&__zakazatbeef{
+    position: absolute;
+    font-family: Jura;
+    background-color: #FF6F00;
+    border-radius: 100px;
+    color: #000;
+    font-size: 32px;
+    width: 230px;
+    height: 55px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 19px 19px;
+    top: 3023px;
+    left: 1874px;
+}
+
+&__cardfett{
+    color: #fff;
+    position: absolute;
+    width: 486px;
+    height: 700px;
+    background-color: #fff;
+    border-radius: 40px;
+    top: 3350px;
+    left: 104px; 
+    }
+
+    &__fett{
+        color: #fff;
+        position: relative;
+        width: 400px;
+        height: 460px;
+        top: 390px;
+        left: 147px;
+    }
+
+    &__fetttext{
+        background-color: #fff;
+        position: absolute;
+        width: 290px;
+        height: 78px;
+        font-family: Jura;
+        font-size: 36px;
+        top: 3850px;
+        left: 147px;
+    }
+
+    &__fettprice{
+        background-color: #fff;
+        position: absolute;
+        font-family: Lato;
+        width: 88px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 36px;
+        top: 3890px;
+        left: 459px;
+    }
+
+    &__izbr6{
+        position: absolute;
+        font-family: Jura;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+        color: #000;
+        font-size: 24px;
+        width: 166px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3977px;
+        left: 150px;
+    }
+
+    &__zakazatfett{
+        position: absolute;
+        font-family: Jura;
+        background-color: #FF6F00;
+        border-radius: 100px;
+        color: #000;
+        font-size: 32px;
+        width: 230px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3977px;
+        left: 319px;
+    }
+
+    &__carddart{
+        color: #fff;
+                position: absolute;
+                width: 486px;
+                height: 700px;
+                background-color: #fff;
+                border-radius: 40px;
+                top: 3350px;
+                left: 900px; 
+        }
+    
+        &__dart{
+            color: #fff;
+            position: relative;
+            width: 400px;
+            height: 450px;
+            top: -60px;
+            left: 943px;
+        }
+    
+        &__darttext{
+            background-color: #fff;
+            position: absolute;
+            width: 290px;
+            height: 78px;
+            font-family: Jura;
+            font-size: 36px;
+            top: 3850px;
+            left: 943px;
+        }
+    
+        &__dartprice{
+            background-color: #fff;
+            position: absolute;
+            font-family: Lato;
+            width: 88px;
+            height: 38px;
+            font-weight: 900;
+            font-size: 36px;
+            top: 3890px;
+            left: 1261px;
+        }
+    
+        &__izbr7{
+            position: absolute;
+            font-family: Jura;
+            background-color: #D9D9D9;
+            border-radius: 100px;
+            color: #000;
+            font-size: 24px;
+            width: 166px;
+            height: 55px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 19px 19px;
+            top: 3977px;
+            left: 943px;
+        }
+    
+        &__zakazatdart{
+            position: absolute;
+            font-family: Jura;
+            background-color: #FF6F00;
+            border-radius: 100px;
+            color: #000;
+            font-size: 32px;
+            width: 230px;
+            height: 55px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 19px 19px;
+            top: 3977px;
+            left: 1120px;
+        }
+        &__cardburger{
+            color: #fff;
+            position: absolute;
+            width: 486px;
+            height: 700px;
+            background-color: #fff;
+            border-radius: 40px;
+            top: 3350px;
+            left: 1650px; 
+    }
+    
+    &__burger{
+        color: #fff;
+        position: absolute;
+        width: 400px;
+        height: 462px;
+        top: 3382px;
+        left: 1693px;
+    }
+    
+    &__burgertext{
+        background-color: #fff;
+        position: absolute;
+        width: 290px;
+        height: 78px;
+        font-family: Jura;
+        font-size: 36px;
+        top: 3850px;
+        left: 1693px;
+    }
+    
+    &__burgerprice{
+        background-color: #fff;
+        position: relative;
+        font-family: Lato;
+        width: 88px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 36px;
+        top: -20px;
+        left: 2016px;
+    }
+    
+    &__izbr8{
+        position: absolute;
+        font-family: Jura;
+        background-color: #D9D9D9;
+        border-radius: 100px;
+        color: #000;
+        font-size: 24px;
+        width: 166px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3978px;
+        left: 1693px;
+    }
+    
+    &__zakazatburger{
+        position: absolute;
+        font-family: Jura;
+        background-color: #FF6F00;
+        border-radius: 100px;
+        color: #000;
+        font-size: 32px;
+        width: 230px;
+        height: 55px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 19px 19px;
+        top: 3978px;
+        left: 1874px;
+    }
+}
+
+@media (max-width: 431px) {
+    .menu{
+        &__menu{
+            font-size: 40px;
+            width: 109px;
+            height: 31px;
+            top: 400px;
+            left: 160px;
+        }
+
+        &__card{
+            height: 356px;
+            width: 309px;
+            top: 475px;
+            left: 61px;
+        }
+
+        &__salad{
+            width: 257px;
+            height: 250px;
+            top: 489px;
+            left: 87px;
+        }
+
+        &__saladtext{
+            width: 154px;
+            top: 743px;
+            height: 43px;
+            font-size: 20px;
+            left: 87px;
+        }
+
+        &__saladprice{
+            width: 59px;
+            height: 22px;
+            font-size: 20px;
+            left:285px;
+            top: 750px;
+        }
+    
+        &__izbr{
+            font-size: 14px;
+            width: 105px;
+            height: 20px;
+            padding: 7px 14px 7px 14px;
+            top: 800px;
+            left: 79px;
+        }
+    
+        &__zakazat{
+            font-size: 14px;
+            width: 154px;
+            height: 20px;
+            padding: 7px 45px 7px 45px;
+            left: 190px;
+            top: 800px;
+        }
+    
+        &__cardcake{
+            height: 356px;
+            width: 309px;
+            left: 61px;
+            top: 855px;
+        }
+    
+        &__cake{
+            width: 257px;
+            height: 250px;
+            left: 87px;
+            top: 615px;
+        }
+    
+        &__subtitlecake{
+            width: 166px;
+            font-size: 20px;
+            height: 43px;
+            font-size: 20px;
+            top: 1125px;
+            left: 87px
+        }
+    
+        &__pricecake{
+            width: 59px;
+            height: 22px;
+            left:285px;
+            font-size: 20px;
+            top: 1132px;
+        }
+    
+        &__izbr1{
+            font-size: 14px;
+            width: 105px;
+            height: 20px;
+            padding: 7px 14px 7px 14px;
+            left: 79px;
+            top: 1182px;
+        }
+    
+        &__zakazcake{
+            font-size: 14px;
+            width: 154px;
+            height: 20px;
+            padding: 7px 45px 7px 45px;
+            left: 190px;
+            top: 1182px;
+        }
+    
+        &__cardpiro{
+            height: 356px;
+            top: 728px;
+            width: 309px;
+            left: 61px;
+    }
+    
+    &__piro{
+        width: 257px;
+        top: 743px;
+        height: 250px;
+        left: 87px;
+    }
+    
+    &__pirotext{
+        width: 154px;
+        font-size: 20px;
+        height: 43px;
+        font-size: 20px;
+        top: 1505px;
+        left: 87px
+    }
+    
+    &__piroprice{
+        width: 59px;
+        height: 22px;
+        left:285px;
+        top: 1514px;
+        font-size: 20px;
+    }
+    
+    &__izbr2{
+        font-size: 14px;
+        width: 105px;
+        height: 20px;
+        padding: 7px 14px 7px 14px;
+        left: 79px;
+        top: 1564px;
+    }
+    
+    &__zakazatpiro{
+        font-size: 14px;
+        width: 154px;
+        height: 20px;
+        padding: 7px 45px 7px 45px;
+        left: 190px;
+        top: 1564px;
+    }
+
+     
+    &__cardsila{
+        top: 1615px;
+        height: 356px;
+        width: 309px;
+        left: 61px;
+        }
+    
+        &__sila{
+            top: 868px;
+            width: 257px;
+            height: 250px;
+            left: 87px;
+        }
+    
+        &__silatext{
+            width: 154px;
+            font-size: 20px;
+            height: 43px;
+            font-size: 20px;
+            left: 87px;
+            top: 1888px;
+        }
+    
+        &__silaprice{
+            width: 59px;
+            height: 22px;
+            left:285px;
+            top: 1895px;
+            font-size: 20px;
+        }
+    
+        &__izbr3{
+            font-size: 14px;
+            width: 105px;
+            height: 20px;
+            padding: 7px 14px 7px 14px;
+            left: 79px;
+            top: 1945px;
+        }
+    
+        &__zakazatsila{
+            font-size: 14px;
+            width: 154px;
+            top: 1945px;
+            height: 20px;
+            padding: 7px 45px 7px 45px;
+            left: 190px;
+        }
+    
+        &__cardpasta{
+            height: 356px;
+            width: 309px;
+            left: 61px;
+            top: 1990px;
+        }
+    
+        &__pasta{
+            width: 257px;
+            height: 250px;
+            left: 87px;
+            top: 990px;
+        }
+    
+        &__pastatext{
+            width: 154px;
+            font-size: 20px;
+            height: 43px;
+            font-size: 20px;
+            left: 87px;
+            top: 2260px;
+        }
+    
+        &__pastaprice{
+            width: 59px;
+            height: 22px;
+            left:285px;
+            top: 2270px;
+            font-size: 20px;
+        }
+    
+        &__izbr4{
+            font-size: 14px;
+            width: 105px;
+            height: 20px;
+            padding: 7px 14px 7px 14px;
+            left: 79px;
+            top: 2320px;
+        }
+    
+        &__zakazatpasta{
+            font-size: 14px;
+            width: 154px;
+            height: 20px;
+            padding: 7px 45px 7px 45px;
+            left: 190px;
+            top: 2320px;
+        }
+    
+        &__cardbeef{
+            top: 2365px;
+            height: 356px;
+            width: 309px;
+            left: 61px;
+    }
+    
+    &__beef{
+        width: 257px;
+        height: 250px;
+        left: 87px;
+        top: 1110px;
+    }
+    
+    &__beeftext{
+        width: 154px;
+        font-size: 20px;
+        height: 43px;
+        font-size: 20px;
+        top: 1111px;
+        left: 87px;
+    }
+    
+    &__beefprice{
+        top: 1080px;
+        width: 59px;
+        height: 22px;
+        left:285px;
+        font-size: 20px;
+    }
+    
+    &__izbr5{
+        font-size: 14px;
+        width: 105px;
+        height: 20px;
+        padding: 7px 14px 7px 14px;
+        left: 79px;
+        top: 2693px;
+    }
+    
+    &__zakazatbeef{
+        font-size: 14px;
+        width: 154px;
+        height: 20px;
+        padding: 7px 45px 7px 45px;
+        left: 190px;
+        top: 2693px;
+    }
+    
+    &__cardfett{
+        height: 356px;
+        width: 309px;
+        left: 61px;
+        top: 2740px;
+        }
+    
+        &__fett{
+            width: 257px;
+            height: 250px;
+            left: 87px;
+            top: 1166px;
+        }
+    
+        &__fetttext{
+            width: 154px;
+            font-size: 20px;
+            height: 43px;
+            font-size: 20px;
+            left: 87px;
+            top: 3010px;
+        }
+    
+        &__fettprice{
+            width: 59px;
+            top: 3017px;
+            height: 22px;
+            left:285px;
+            font-size: 20px;
+        }
+    
+        &__izbr6{
+            font-size: 14px;
+            width: 105px;
+            height: 20px;
+            padding: 7px 14px 7px 14px;
+            left: 79px;
+            top: 3067px;
+        }
+    
+        &__zakazatfett{
+            font-size: 14px;
+            width: 154px;
+            height: 20px;
+            padding: 7px 45px 7px 45px;
+            left: 190px;
+            top: 3067px;
+        }
+    
+        &__carddart{
+            height: 356px;
+            width: 309px;
+            left: 61px;
+            top: 3112px;
+        }
+        
+            &__dart{
+                width: 257px;
+                height: 250px;
+                left: 87px;
+                top: 1283px;
+            }
+        
+            &__darttext{
+                width: 154px;
+                font-size: 20px;
+                height: 43px;
+                font-size: 20px;
+                left: 87px;
+                top: 3379px;
+            }
+        
+            &__dartprice{
+                width: 59px;
+                height: 22px;
+                left:285px;
+                font-size: 20px;
+                top: 3386px;
+            }
+        
+            &__izbr7{
+                font-size: 14px;
+                top: 3436px;
+                width: 105px;
+                height: 20px;
+                padding: 7px 14px 7px 14px;
+                left: 79px;
+            }
+        
+            &__zakazatdart{
+                top: 3436px;
+                font-size: 14px;
+                width: 154px;
+                height: 20px;
+                padding: 7px 45px 7px 45px;
+                left: 190px;
+            }
+
+            &__cardburger{
+                height: 356px;
+                width: 309px;
+                top: 3488px;
+                left: 61px;
+        }
+        
+        &__burger{
+            width: 257px;
+            height: 250px;
+            left: 87px;
+            top: 3502px;
+        }
+        
+        &__burgertext{
+            width: 154px;
+            font-size: 20px;
+            height: 43px;
+            font-size: 20px;
+            left: 87px;
+            top: 3755px;
+        }
+        
+        &__burgerprice{
+            width: 59px;
+            height: 22px;
+            left:285px;
+            font-size: 20px;
+            top: 1668px;
+        }
+        
+        &__izbr8{
+            font-size: 14px;
+            width: 105px;
+            height: 20px;
+            padding: 7px 14px 7px 14px;
+            left: 79px;
+            top: 3815px;
+        }
+        
+        &__zakazatburger{
+            font-size: 14px;
+            width: 154px;
+            height: 20px;
+            top: 3815px;
+            padding: 7px 45px 7px 45px;
+            left: 190px;
+        }
+
+    
+    }
+}
+
+.aboutus{
+    &__about{
+        position: relative;
+        color: #fff;
+        font-family: Jura;
+        font-size: 128px;
+        width: 334px;
+        top: 210px;
+        left: 970px;
+    }
+
+    &__text{
+        position: relative;
+        color: #fff;
+        font-family: Jura;
+        font-size: 48px;
+        width: 1457px;
+        height: 911px;
+        top: 316px;
+        left: 104px;
+    }
+}
+
+@media (max-width: 431px) {
+    .aboutus{
+        &__about{
+            font-size: 48px;
+            width: 137px;
+            height: 52px;
+            left: 147px;
+            top: 1760px;
+        }
+        &__text{
+            font-size: 20px;
+            height: 480px;
+            width: 381px;
+            left: 25px;
+            top: 1790px;
+        }
+    }
+}
+
+.footer{
+    &__rectangle{
+        position: relative;
+        top: 363px;
+        width: 1920px;
+        left: 170px;
+    }
+
+    &__vk{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 545px;
+        left: 104px;
+    }
+
+    &__tg{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 105px;
+        top: 5760px;
+    }
+
+    &__time{
+        position: relative;
+        color: #fff;
+        width: 250px;
+        height: 151px;
+        top: 440px;
+        left: 400px;
+        font-family: Jura;
+        font-size: 40px;
+    }
+
+    &__delivery{
+        position: relative;
+        color: #fff;
+        width: 390px;
+        height: 116px;
+        top: 275px;
+        left: 900px;
+        font-family: Jura;
+        font-size: 64px;
+    }
+
+    input.footer__email{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        width: 377px;
+        height: 60px;
+        padding: 25px 10px 25px;
+        font-size: 32px;
+        top: 185px;
+        left: 1400px;
+        text-align: left;
+        background-color: #fff;
+        ::-webkit-input-placeholderz{
+            color: #A9A9A9;
+        } 
+    }
+
+    &__sub{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        background-color: #303030;
+        color: #fff;
+        width: 176px;
+        height: 60px;
+        padding: 17px 22px;
+        top: 140px;
+        font-size: 24px;
+        left: 1777px;
+    }
+
+    &__accept{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        color: #fff;
+        width: 344px;
+        height: 72px;
+        font-size: 20px;
+        left: 1405px;
+        top: 200px;
+    }
+
+    &__prava{
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        top: 370px;
+        width: 358px;
+        height: 16px;
+        left: 1000px;
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 431px) {
+    .footer{
+        &__rectangle{
+            width: 252px;
+            left: 89px;
+            top: 1800px;
+        }
+
+        &__vk{
+            width: 40px;
+            height: 40px;
+            left: 26px;
+            top: 1840px;
+        }
+
+        &__time{
+            width: 100px;
+            left: 90px;
+            font-size: 16px;
+            top: 1780px;
+            height: 76px;
+        }
+
+        &__delivery{
+            width: 92px;
+            height: 12px;
+            font-size: 10px;
+            left: 220px;
+            top: 1708px;
+        }
+
+        input.footer__email{
+            width: 112px;
+            height: 20px;
+            left: 220px;
+            font-size: 10px;
+            top: 1720px;
+            padding: 8px 21px 8px 3px;
+        }
+
+        &__sub{
+            width: 44px;
+            height: 9px;
+            padding: 5px;
+            font-size: 7px;
+            left: 332px;
+            border: none;
+            top: 1699px;
+        }
+
+        &__accept{
+            width: 103px;
+            height: 23px;
+            font-size: 6px;
+            left: 220px;
+            top: 1707px;
+        }
+
+        &__prava{
+            width: 134px;
+            height: 5px;
+            font-size: 6px;
+            left: 148px;
+            top: 1740px;
+        }
+    }
+}
+
+.review{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    &__we{
+        position: absolute;
+        font-family: Jura;
+        font-size: 128px;
+        width: 890px;
+        height: 89px;
+        left: 700px;
+        top: 140px;
+    }
+
+    &__Yura{
+        position: absolute;
+        font-size: 40px;
+        left: 104px;
+        top: 400px;
+    }
+
+    &__Yuraa{
+        position: absolute;
+        font-size: 36px;
+        left: 104px;
+        top: 500px;
+        width: 534px;
+        height: 172px;
+    }
+
+    &__alex{
+        position: absolute;
+        font-size: 40px;
+        left: 104px;
+        top: 900px;
+    }
+
+    &__alexx{
+        position: absolute;
+        font-size: 36px;
+        width: 524px;
+        height: 116px;
+        top: 1000px;
+        left: 104px;
+    }
+
+    &__alexey{
+        position: absolute;
+        font-size: 40px;
+        top: 400px;
+        left: 1350px;
+    }
+
+    &__alexeyy{
+        position: absolute;
+        font-size: 36px;
+        left: 1350px;
+        top: 500px;
+        width: 534px;
+        height: 172px;
+    }
+
+    &__elena{
+        position: absolute;
+        font-size: 40px;
+        left: 1350px;
+        top: 900px;
+    }
+
+    &__elenaa{
+        position: absolute;
+        font-size: 36px;
+        left: 1350px;
+        top: 1000px;
+        width: 592px;
+        height: 215px;
+    }
+}
+
+@media (max-width: 431px) {
+    .review{
+        &__we{
+            width: 300px;
+            height: 40px;
+            left: 89px;
+            font-size: 40px;
+            top: 70px;
+        }
+
+        &__Yura{
+            width: 155px;
+            height: 22px;
+            font-size: 15px;
+            left: 32px;
+            top: 140px;
+        }
+
+        &__Yuraa{
+            width: 175px;
+            height: 59px;
+            font-size: 12px;
+            left: 32px;
+            top: 170px;
+        }
+
+        &__alex{
+            left: 231px;
+            width: 151px;
+            height: 21px;
+            font-size: 15px;
+            top: 140px;
+        }
+
+        &__alexx{
+            left: 231px;
+            width: 167px;
+            font-size: 12px;
+            height: 45px;
+            top: 170px;
+        }
+
+        &__alexey{
+            width: 153px;
+            height: 18px;
+            font-size: 15px;
+            left: 32px;
+            top: 250px;
+        }
+
+        &__alexeyy{
+            width: 175px;
+            height: 41px;
+            font-size: 12px;
+            left: 32px;
+            top: 280px;
+        }
+
+        &__elena{
+            width: 111px;
+            height: 20px;
+            font-size: 15px;
+            left: 231px;
+            top: 250px;
+        }
+
+        &__elenaa{
+            width: 169px;
+            height: 88px;
+            font-size: 12px;
+            left: 231px;
+            top: 280px;
+        }
+    }
+}
+
+.footerr{
+    &__rectangle{
+        position: relative;
+        top: 1300px;
+        width: 1920px;
+        left: 170px;
+    }
+
+    &__vk{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 1450px;
+        left: 104px;
+    }
+
+    &__tg{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        left: 105px;
+        top: 1640px;
+    }
+
+    &__time{
+        position: relative;
+        color: #fff;
+        width: 250px;
+        height: 151px;
+        top: 1346px;
+        left: 400px;
+        font-family: Jura;
+        font-size: 40px;
+    }
+
+    &__delivery{
+        position: relative;
+        color: #fff;
+        width: 390px;
+        height: 116px;
+        top: 1185px;
+        left: 900px;
+        font-family: Jura;
+        font-size: 64px;
+    }
+
+    input.footerr__email{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        width: 377px;
+        height: 60px;
+        padding: 25px 10px 25px;
+        font-size: 32px;
+        top: 1100px;
+        left: 1400px;
+        text-align: left;
+        background-color: #fff;
+        ::-webkit-input-placeholderz{
+            color: #A9A9A9;
+        } 
+    }
+
+    &__sub{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        background-color: #303030;
+        color: #fff;
+        width: 176px;
+        height: 60px;
+        padding: 17px 22px;
+        top: 1055px;
+        font-size: 24px;
+        left: 1777px;
+    }
+
+    &__accept{
+        font-family: 'Lato', sans-serif;
+        position: relative;
+        color: #fff;
+        width: 344px;
+        height: 72px;
+        font-size: 20px;
+        left: 1405px;
+        top: 1115px;
+    }
+
+    &__prava{
+        position: relative;
+        font-family: 'Lato', sans-serif;
+        top: 1250px;
+        width: 358px;
+        height: 16px;
+        left: 1000px;
+        color: #fff;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 431px) {
+    .footerr{
+        &__rectangle{
+            width: 252px;
+            left: 89px;
+            top: 380px;
+        }
+
+        &__vk{
+            width: 40px;
+            height: 40px;
+            left: 26px;
+            top: 410px;
+        }
+
+        &__time{
+            width: 100px;
+            left: 90px;
+            font-size: 16px;
+            top: 350px;
+            height: 76px;
+        }
+
+        &__delivery{
+            width: 92px;
+            height: 12px;
+            font-size: 10px;
+            left: 220px;
+            top: 279.5px;
+        }
+
+        input.footerr__email{
+            width: 112px;
+            height: 20px;
+            left: 220px;
+            font-size: 10px;
+            top: 290px;
+            padding: 8px 21px 8px 3px;
+        }
+
+        &__sub{
+            width: 44px;
+            height: 9px;
+            padding: 5px;
+            font-size: 7px;
+            left: 332px;
+            border: none;
+            top: 269px;
+        }
+
+        &__accept{
+            width: 103px;
+            height: 23px;
+            font-size: 6px;
+            left: 220px;
+            top: 280px;
+        }
+
+        &__prava{
+            width: 134px;
+            height: 5px;
+            font-size: 6px;
+            left: 148px;
+            top: 300px;
+        }
+    }
+}
